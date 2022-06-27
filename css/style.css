@@ -1,0 +1,107 @@
+#contPadre{
+    background: #ceffd5;
+    height: 500px;
+}
+.logoP{
+    width: 200px;
+}
+.font-img{
+    height: 500px;
+    margin: 0 140px;
+}
+.carousel-item .captionMove{
+    top: 40%;
+    color: #ffffff;
+}
+.carousel-item .captionMove h5{
+    font-size: 40px;
+}
+.carousel-item .captionMove p{
+    font-size: 24px;
+}
+main #welcome{
+    padding: 100px 0;
+    background: #e2e2e2;
+}
+main .welcome-info h2{
+    color: #646464;
+    margin-top: 80px;
+    font-size: 50px;
+}
+main .welcome-info p{
+    font-size: 18px;
+}
+main #servicios{
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    background: url(../img/foto8.jpg);
+    background-size: cover;
+}
+main #servicios h2{
+    margin-bottom: 60px;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+#servicios .card-servicios{
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 10px;
+}
+#servicios .card-servicios i{
+    font-size: 40px;
+    color: #ffffff;
+}
+#servicios .card-servicios h3{
+    color: #ffffff;
+}
+#curiosidad{
+    background: #e2e2e2;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+#curiosidad h2{
+    margin-bottom: 50px;
+}
+.btn{
+    background: #456a92;
+    border: 1px solid #000000;
+    transition: 0.3s;
+}
+.btn:hover{
+    background: #35516e ;
+    border: 1px solid #000000
+}
+.btn-check:focus+.btn, .btn:focus{
+    background-color: #35516e;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px #5a87b8, -3px 3px #5a87b8, 3px -3px #5a87b8, -3px -3px #5a87b8; ;
+}
+.row-move{
+    margin: 0;
+}
+.popover{
+    border: 1px solid #969696;
+}
+.popover-header{
+    background: #abc8e6;
+}
+footer{
+    background: #212529;
+    padding: 20px 0;
+}
+footer h4, footer p{
+    color: #e2e2e2;
+}
+footer a{
+    text-decoration: none;
+    color: #e2e2e2;
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+    #servicios .row{
+        justify-content: center;
+    }
+}
